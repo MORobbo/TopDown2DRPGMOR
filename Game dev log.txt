@@ -1,0 +1,30 @@
+
+https://www.youtube.com/watch?v=7iYWpzL9GkM
+
+Splicing sprites & adding a tilemap -
+
+Learnt How to slice a sprite and format it correctly using the Inspector window 
+When using pixelated graphics in a 2D Game ; set Filter mode to Point(No filter) and compression to none
+This ensures that it looks crisp.
+
+When splicing a sprite you have to select the relevant sprite mode. If it is a single sprite within the file you select single, multiple for more then one
+I have used to sprite editor to splice the sprites. It is in one of the windows at the top. 
+
+I then created a 2D Tilemap - Right click the hierarchy window, 2D Object, Tilemap, rectangular. 
+Then set the grid to 0.16x0.16 - which is relevant to the tiles I was using.
+I then created a tile pallet - Window, 2D, Tile Pallet
+I created a seperate file for the tiles so that when I put them in the tile pallet the file I was using for my sprites was not cluttered. 
+To add the sprites to the tile pallet, you have to drag and drop them into it.
+You can then select the sprite you want to use and paint it upon the scene. 
+To place tiles ontop of of the tilemap you have to create a new tilemap and put it a layer above the original.
+
+Movement -
+Import Unity input system using the package manager
+To find the package manager - Window - Package manager 
+Packages - Unity registry - Search bar - Input System - Install
+Added component to player - Player input 
+Applied to PRE-FAB - 3 little dots next to component - added component - apply to prefab 'Player'
+46:26 I got to today 
+
+Fixed animations I was having troubles with.
+Managed to code a simple character controller following this youtube tutorial - https://www.youtube.com/watch?v=HiALhGu7QoA
